@@ -952,7 +952,7 @@
  *
  * Specify a Probe position as { X, Y, Z }
  */
-#define NOZZLE_TO_PROBE_OFFSET { -48, -10, -1.7 }
+#define NOZZLE_TO_PROBE_OFFSET { -48.65, -13.34, -1.3 } // Add positive Z to increase nozzle height from print bed
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
